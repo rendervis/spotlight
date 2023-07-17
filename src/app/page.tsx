@@ -92,7 +92,7 @@ export default function Home() {
   const person = people.find((person) => person.id.toString() === searchId);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 p-16 mx-auto max-w7xl">
+    <div className="grid grid-cols-1 lg:grid-cols-2 p-16 mx-auto max-w7xl">
       {/** List */}
       <ul role="list" className="divide-y divide-gray-100">
         {people.map((person) => (
